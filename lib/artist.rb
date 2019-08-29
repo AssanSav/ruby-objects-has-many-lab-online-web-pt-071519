@@ -12,8 +12,8 @@ class Artist
     Song.all.collect {|song| song}
   end
   
-  def add_song 
-    
+  def add_song(name)
+    song = Song.new(name)
   end
   
   
