@@ -7,4 +7,8 @@ class Post
     @name = name
   end
   
+  def posts 
+    Post.all.collect {|post| post.author}
+  end
+  
 end
