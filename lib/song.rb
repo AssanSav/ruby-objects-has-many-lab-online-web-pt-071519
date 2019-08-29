@@ -14,8 +14,6 @@ class Song
   end
   
   def artist_name 
-    song = Song.new 
-    song.artist.name = self 
     
   end
 end
