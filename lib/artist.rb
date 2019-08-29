@@ -12,7 +12,7 @@ class Artist
     Song.all.collect {|song| song}
   end
   
-  def add_song(name)
+  def add_song(song)
     song.artist = self 
   end
   
