@@ -13,8 +13,8 @@ class Artist
   end
   
   def add_song(name)
-    song = Song.new(name)
-    song.artist 
+    #song = Song.new(name)
+  
   #binding.pry
   end
   
