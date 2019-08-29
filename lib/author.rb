@@ -20,7 +20,7 @@ class Author
     post = Post.new(title)
     post.author = self
     post
-    #binding.pry
+    binding.pry
   end
   
 end
