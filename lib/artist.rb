@@ -12,7 +12,9 @@ class Artist
     Song.all.collect {|song| song}
   end
   
-
+  def add_song 
+    
+  end
   
   
 end
