@@ -9,7 +9,7 @@ class Artist
   end
   
   def songs 
-    Song.all.collect {|song| song.artist.name == self}
+    Song.all.collect {|song| song.artist == self}
   end
   
 
