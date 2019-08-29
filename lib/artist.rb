@@ -9,7 +9,7 @@ class Artist
   end
   
   def songs 
-    Song.all.collect {|song| song.artist}
+    Song.all.collect {|song| song}
   end
   
 
