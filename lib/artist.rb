@@ -16,7 +16,7 @@ class Artist
     song = Song.new(name)
     song.artist == self
   
-  binding.pry
+ # binding.pry
   end
   
   
